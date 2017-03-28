@@ -1,0 +1,170 @@
+h1 {
+  font-size: 36px;
+  font-family: "BebasRegular";
+  color: #e8603c; }
+
+h2 {
+  font-size: 20px;
+  font-family: "BebasRegular";
+  color: #fff; }
+
+h3 {
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "BebasRegular";
+  color: #e8663c; }
+
+h4 {
+  font-size: 16px;
+  line-height: 18px;
+  font-family: "BebasRegular";
+  color: #b9b9b9; }
+
+h5 {
+  font-size: 11px;
+  line-height: 18px;
+  font-family: "BebasRegular";
+  color: #e8663c; }
+
+body {
+  font-size: 12px;
+  line-height: 18px;
+  font-family: "HelveticaNeueRegular"; }
+
+.text-left {
+  text-align: left; }
+
+.text-right {
+  text-align: right; }
+
+.text-center {
+  text-align: center; }
+
+/***************************************** NAV *****************************************/
+nav h1 {
+  margin: 20px auto; }
+  nav h1 span {
+    color: #f3af9d; }
+nav ul.menu {
+  padding: 0px;
+  margin: 20px auto; }
+  nav ul.menu li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 25px; }
+    nav ul.menu li a {
+      text-decoration: none;
+      font-size: 16px;
+      font-family: "BebasRegular";
+      color: #b9b9b9; }
+      nav ul.menu li a:hover, nav ul.menu li a:active, nav ul.menu li a:focus {
+        color: #e8663c; }
+
+/***************************************** NAV *****************************************/
+/***************************************** SECTION#SLIDER *****************************************/
+section#slider div.fotorama div#slideInfo {
+  max-width: 370px;
+  background: rgba(232, 102, 60, 0.7);
+  padding: 22px 18px;
+  position: absolute;
+  bottom: 8%;
+  left: 4%; }
+  section#slider div.fotorama div#slideInfo h3 {
+    color: #fff;
+    margin: 0 auto; }
+  section#slider div.fotorama div#slideInfo p {
+    color: #fff;
+    margin: 0 auto; }
+
+/***************************************** SECTION#SLIDER *****************************************/
+/***************************************** SECTION#INFO *****************************************/
+section#info {
+  margin: 35px auto; }
+  section#info span {
+    color: #e8663c;
+    float: left;
+    margin-right: 20px;
+    clear: both; }
+  section#info h3 {
+    max-width: 200px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    display: block; }
+  section#info p {
+    max-width: 245px;
+    text-align: left;
+    margin: 35px auto 20px auto; }
+  section#info a {
+    display: block;
+    margin: 0 60px 0 auto;
+    background-color: #e8663c;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 24px;
+    font-family: "BebasRegular";
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 5px 10px; }
+    section#info a:hover {
+      background-color: #ca785d; }
+
+/***************************************** SECTION#INFO *****************************************/
+/***************************************** SECTION#WORKS *****************************************/
+section#works {
+  margin: 0px auto 45px auto; }
+  section#works h3 {
+    margin: 0px auto 25px auto; }
+  section#works div.col-lg-10 img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto; }
+  section#works div.col-lg-3 figure a {
+    outline: none; }
+    section#works div.col-lg-3 figure a img {
+      width: 100%;
+      height: auto;
+      min-height: 217px;
+      min-width: 210px; }
+  section#works div.col-lg-3 figure figcaption {
+    max-width: 100%;
+    width: 100%;
+    border: 1px solid #b9b9b9;
+    border-top: none;
+    padding: 10px; }
+    section#works div.col-lg-3 figure figcaption h4 {
+      margin: 0 auto; }
+    section#works div.col-lg-3 figure figcaption h5 {
+      margin: 0 auto;
+      text-transform: uppercase; }
+
+/***************************************** SECTION#WORKS *****************************************/
+/***************************************** FOOTER *****************************************/
+footer div.container {
+  background-color: #e8663c; }
+  footer div.container h2 {
+    margin: 40px auto 25px auto; }
+  footer div.container p {
+    margin: 10px auto;
+    color: #fff;
+    max-width: 232px;
+    text-align: justify; }
+  footer div.container p span {
+    color: #f3b29d;
+    font-family: "HelveticaNeueLight"; }
+  footer div.container p a {
+    color: #f3b29d; }
+  footer div.container ul.social {
+    padding: 0px;
+    margin: 20px auto 45px auto; }
+    footer div.container ul.social li {
+      display: inline; }
+      footer div.container ul.social li a {
+        opacity: 0.7;
+        padding: 5px; }
+        footer div.container ul.social li a:hover {
+          opacity: 1; }
+
+/***************************************** FOOTER *****************************************/
